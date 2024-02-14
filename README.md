@@ -1,4 +1,4 @@
 # freeCodeCampStudy
 personal study
 
-### [Cat Photo App] (github.com/dongs09/freeCodeCampStudy/CatPhotoApp.html)
+### [Cat Photo App](https://github.com/dongs09/freeCodeCampStudy/CatPhotoApp.html)
