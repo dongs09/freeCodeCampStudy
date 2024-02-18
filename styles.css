@@ -8,6 +8,8 @@ body {
 }
 h1{
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 h2{
     font-size: 30px;
@@ -28,6 +30,24 @@ hr{
 h1, h2 {
     font-family: Impact, serif; /*두번째 폰트는 백업 폰트로 지정해줌*/
 }
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
 .flavor, .dessert {
     text-align: left;
     width: 75%;
@@ -47,6 +67,9 @@ h1, h2 {
 }
 .bottom-line {
     margin-top: 25px;
+}
+.address {
+    margin-bottom: 5px;
 }
 /* FOOTER */
 footer {
