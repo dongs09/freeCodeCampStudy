@@ -7,7 +7,7 @@ h1 {
     margin: 10px auto;
 }
 .red {
-    background-color: rgb(255, 0, 0);
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(0,255,0) 50%, rgb(0,0,255) 100%);
 }
 .green {
     background-color: #007F00;
@@ -27,4 +27,7 @@ h1 {
     hue: red - 0 degree, green - 120 degree, blue - 240 degree.
     saturation: 0% -> 100% (gray -> pure)
     lightness: 0% -> 100% (black -> white)
+*/
+/*
+    linear-gradient : 그라디에이션 만들어줌 ㅎㅅㅎ
 */
