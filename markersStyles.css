@@ -1,19 +1,25 @@
 h1 {
     text-align: center;
 }
+.sleeve {
+    height:25px;
+    width: 110px;
+    background-color: white;
+    /* opacity: 0.5; 불투명도 */
+}
 .marker {
     height: 25px;
     width: 200px;
     margin: 10px auto;
 }
 .red {
-    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(0,255,0) 50%, rgb(0,0,255) 100%);
+    background: linear-gradient(rgb(122, 74, 14), rgb(245,62,113), rgb(162,27,27));
 }
 .green {
-    background-color: #007F00;
+    background: linear-gradient(#55680D, #71F53E, #116C31);
 }
 .blue {
-    background-color: hsl(240, 100%, 50%); /* (hue, saturation, lightness) */
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* (hue, saturation, lightness) */
 }
 .container {
     background-color: rgb(255, 255, 255);
