@@ -26,25 +26,30 @@
                     <option>none</option>
                 </select>
             </label>
-            <legend>Do you eat breakfast?</legend>
-            <label for="yes">
-                <input id="yes" value="1" type="radio" name="breakfast-type" checked> yes
-            </label>
-            <label for="no">
-                <input id="no" value="2" type="radio" name="breakfast-type"> no
-            </label>
+            <fieldset>
+                <legend>Do you eat breakfast?</legend>
+                <label for="yes">
+                    <input class="inline" id="yes" value="1" type="radio" name="breakfast-type" checked> yes
+                </label>
+                <label for="no">
+                    <input id="no" class="inline" value="2" type="radio" name="breakfast-type"> no
+                </label>
+            </fieldset>
+            <fieldset>
+
                 <legend>What fruit do you like most?</legend>
                 <label for="banana">
-                    <input id="banana" type="checkbox" value="banana" name="fruit"> banana
+                    <input checked class="inline" id="banana" type="checkbox" value="banana" name="fruit"> banana
                 </label>
                 <label for="apple">
-                    <input id="apple" type="checkbox" value="apple" name="fruit"> apple
+                    <input id="apple" class="inline" type="checkbox" value="apple" name="fruit"> apple
                 </label>
                 <label for="orange">
-                    <input id="orange" type="checkbox" value="orange" name="fruit"> orange
+                    <input class="inline" id="orange" type="checkbox" value="orange" name="fruit"> orange
                 </label>
+            </fieldset>
                 <label for="bio">
-                    Provide a bio:
+                    Provide a bio
                     <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
                 </label>
                 <input type="submit" id="submit">

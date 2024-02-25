@@ -2,4 +2,43 @@ body {
     width: 100%;
     margin: 1em auto;
     text-align: center;
+    background-color: cadetblue;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding: 0 0 2em 0;
+}
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    border: 1px solid rgb(114, 148, 140);
+    background-color: rgb(114, 148, 140);
+    color: black;
+}
+::placeholder {
+    color: rgb(75, 111, 106);
+}
+fieldset {
+    margin: 10px 0 0 0;
+    text-align: left;
+    border-color: grey;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="submit"] {
+    background-color: rgb(79 133 133);
+    border-color: rgb(79 133 133);
+    min-height: 3em;
 }
