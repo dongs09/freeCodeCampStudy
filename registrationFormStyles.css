@@ -20,6 +20,7 @@ form {
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding: 0 0 2em 0;
 }
 fieldset {
     border: 0;
@@ -32,4 +33,31 @@ fieldset:last-of-type {
 input, textarea, select {
     width: 100%;
     margin: 10px 0 0 0;
+    min-height: 2em;
+}
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+a {
+    color: #dfdfe2;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+}
+input[type="file"] {
+ padding: 1px 2px;   
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
 }
