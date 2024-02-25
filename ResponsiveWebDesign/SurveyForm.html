@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="surveyFormStyles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this survey form.</p>
+        <form id="survey-form">
+            <label for="name" id="name-label"> Name
+                <input id="name" type="text" required placeholder="Enter your name">
+            </label>
+            <label for="email" id="email-label"> Email
+                <input id="email" required type="email" placeholder="Enter your email">
+            </label>
+            <label for="number" id="number-label">Favorite number between 1 to 100
+                <input type="number" id="number" min="1" max="100" placeholder="Enter number between 1 to 100">
+            </label>
+            <label> Gender
+                <select id="dropdown">
+                    <option>(Select one)</option>
+                    <option>woman</option>
+                    <option>man</option>
+                    <option>none</option>
+                </select>
+            </label>
+            <legend>Do you eat breakfast?</legend>
+            <label for="yes">
+                <input id="yes" value="1" type="radio" name="breakfast-type" checked> yes
+            </label>
+            <label for="no">
+                <input id="no" value="2" type="radio" name="breakfast-type"> no
+            </label>
+                <legend>What fruit do you like most?</legend>
+                <label for="banana">
+                    <input id="banana" type="checkbox" value="banana" name="fruit"> banana
+                </label>
+                <label for="apple">
+                    <input id="apple" type="checkbox" value="apple" name="fruit"> apple
+                </label>
+                <label for="orange">
+                    <input id="orange" type="checkbox" value="orange" name="fruit"> orange
+                </label>
+                <label for="bio">
+                    Provide a bio:
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                </label>
+                <input type="submit" id="submit">
+        </form>
+    </body>
+</html>
