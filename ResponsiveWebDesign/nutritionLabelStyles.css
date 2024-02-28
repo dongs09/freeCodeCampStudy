@@ -70,3 +70,12 @@ p {
 .daily-value p:not(.no-divider) {   /* daily-value안에서 class명이 no-divider와 일치하지 않는 p들 */
     border-bottom: 1px solid #888989;
 }
+.double-indent {
+    margin: 0 0 0 2em;
+}
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+}
