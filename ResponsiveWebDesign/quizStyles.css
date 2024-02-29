@@ -14,7 +14,13 @@ h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
 }
-nav > ul {
+nav > ul { /* nav 안에 있는 ul만 해당? */
     justify-content: space-evenly;
     display: flex;
+}
+h1, h2 {
+    font-family: Verdana, sans-serif;
+}
+h2 {
+    border-bottom: 4px solid #dfdfe2;
 }
