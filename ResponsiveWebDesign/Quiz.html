@@ -43,8 +43,16 @@
                         <fieldset class="question" name="question1">
                             <legend>Are you sleepy?</legend>
                             <ul class="answers-list">
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <label for="q1-a1">
+                                        <input id="q1-a1" name="q1" type="radio" value="true"> true
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a2">
+                                        <input id="q1-a2" name="q1" type="radio" value="false"> false
+                                    </label>
+                                </li>
                             </ul>
                         </fieldset>
                     </div>
@@ -53,16 +61,51 @@
                         <fieldset class="question" name="question2">
                             <legend>Are you hungry?</legend>
                             <ul class="answers-list">
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <label for="q2-a1">
+                                        <input id="q2-a1" name="q2" type="radio" value="true"> true
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a2">
+                                        <input id="q2-a2" name="q2" type="radio" value="false"> false
+                                    </label>
+                                </li>
                             </ul>
                         </fieldset>
                     </div>
                 </section>
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions">CSS Questions</h2>
+                    <div class="formrow">
+                        <div class="question-block">
+                            <label for="q3">Can the CSS margin property accept negative values?</label>
+                        </div>
+                        <div class="answer">
+                            <select id="q3" name="q3" required>
+                                <option value="">Select an option</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="question-block">
+                            <label for="q4">Do you have any questions:</label>
+                        </div>
+                        <div class="answer">
+                            <textarea id="q4" name="q4" rows="5" cols="50" placeholder="I want to know..."></textarea>
+                        </div>
+                    </div>
                 </section>
+                <input type="submit" value="Send">
             </form>
         </main>
+        <footer>
+            <address>
+                <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+                San Francisco<br />
+                California<br />
+                USA
+            </address>
+        </footer>
     </body>
 </html>
