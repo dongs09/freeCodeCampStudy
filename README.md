@@ -1,5 +1,9 @@
 # freeCodeCampStudy
 personal study
+## JavaScript and Data Structures
+### [Role Playing Game](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RolePlayingGame/index.html)
+
+## Responsive Web Design
 
 ### [Quiz](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Quiz.html)
 ### [Nutrition Label](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/NutritionLabel.html)
