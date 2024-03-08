@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
     background-color: #0a0a23;
 }
@@ -35,4 +38,10 @@ button {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
+    height: 30px;
+    border-radius: 10%;
+}
+#controls {
+    display: flex;
+    justify-content: space-between;
 }
