@@ -5,6 +5,7 @@ personal study
 
 ## Responsive Web Design
 
+### [Balance Sheet](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/BalanceSheet/index.html)
 ### [Quiz](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Quiz.html)
 ### [Nutrition Label](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/NutritionLabel.html)
 ### [Photo Gallery](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/PhotoGallery.html)
