@@ -1,6 +1,8 @@
 # freeCodeCampStudy
 personal study
 ## JavaScript and Data Structures
+
+### [Calorie Counter](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/CalorieCounter/index.html)
 ### [Role Playing Game](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RolePlayingGame/index.html)
 
 ## Responsive Web Design
