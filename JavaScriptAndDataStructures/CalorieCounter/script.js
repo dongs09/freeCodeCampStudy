@@ -14,6 +14,7 @@ function cleanInputString(str){
     //         cleanStrArray.push(strArray[i]);
     //     }
     // }
+    //위 코드처럼 해도 되지만, 아래 코드처럼 해도 됨
     const regex = /[+-\s]/g; 
     // +는 정규식에서 특별한 의미가 있는 문자라 \를 앞에 써줘야 함
     // \s는 공백을 의미함
@@ -29,4 +30,12 @@ function isInvalidInput(str){
     // +를 붙이면 한번 또는 여러번 매치를 찾음 ex) 1e1도 되고 11e11도 됨
     // \d는 [0-9]와 같은 뜻이다. digit 이라는 뜻
     return str.match(regex);
+}
+
+function addEntry(){
+    //const targetId = "#"+entryDropdown.value;
+    //const targetInputContainer = document.querySelector(targetId+' .input-container').value;
+    //위 코드처럼 해도 되지만, 아래 코드처럼 해도 됨
+    const targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`).value;
+    const entryNumber = targetInputContainer.querySelectorAll();
 }
