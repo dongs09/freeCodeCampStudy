@@ -38,5 +38,5 @@ function addEntry(){
     //위 코드처럼 해도 되지만, 아래 코드처럼 해도 됨
     const targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`).value;
     const entryNumber = targetInputContainer.querySelectorAll('input[type="text"]').length;
-    const HTMLString = ``;
+    const HTMLString = `<label>Entry ${entryNumber} Name</label>`;
 }
