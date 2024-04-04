@@ -7,6 +7,7 @@ personal study
 
 ## Responsive Web Design
 
+### [Cat Painting](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CatPainting/index.html)
 ### [Balance Sheet](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/BalanceSheet/index.html)
 ### [Quiz](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Quiz.html)
 ### [Nutrition Label](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/NutritionLabel.html)
