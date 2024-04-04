@@ -105,8 +105,14 @@ function clearForm(){
      * 이건 array같지만 array는 아니다.
      * 하오나  array함수중에 .from()함수는 array같은 애들을 array로 반환해줌.
      */
-
+    for(const container of inputContainers){
+        container.innerHTML = '';
+    }
+    budgetNumberInput.value = '';
+    output.innerText = '';
+    output.classList.add('hide');
 }
 
 addEntryButton.addEventListener('click', addEntry);
 calorieCounter.addEventListener('submit', calculateCalories);
+clearButton.addEventListener('click', clearForm);
