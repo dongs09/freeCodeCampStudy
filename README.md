@@ -2,6 +2,7 @@
 personal study
 ## JavaScript and Data Structures
 
+### [Music Player](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/MusicPlayer/index.html)
 ### [Calorie Counter](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/CalorieCounter/index.html)
 ### [Role Playing Game](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RolePlayingGame/index.html)
 
