@@ -84,6 +84,8 @@ let userData = {
     songCurrentTime : 0
 };
 
+const playSong = (id) => {};
+
 // const printGreeting = () => {   // () => {}는 함수 정의할때 씀
 //     console.log("Hello there!");
 // }
