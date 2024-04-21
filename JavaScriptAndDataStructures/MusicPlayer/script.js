@@ -84,7 +84,15 @@ let userData = {
     songCurrentTime : 0
 };
 
-const playSong = (id) => {};
+const playSong = (id) => {
+  const song = userData?.songs.find((song) => song.id === id);
+  audio.src = song.src;
+  audio.title = song.title;
+
+  if(userData?.currentSong === null || userData?.currentSong.id !== song.id){
+    audio.currentTime = 0;
+  }
+};
 
 // const printGreeting = () => {   // () => {}는 함수 정의할때 씀
 //     console.log("Hello there!");
