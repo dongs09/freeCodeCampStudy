@@ -8,6 +8,7 @@ personal study
 
 ## Responsive Web Design
 
+### [Building a Piano](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/BuildingPiano/index.html)
 ### [Cat Painting](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CatPainting/index.html)
 ### [Balance Sheet](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/BalanceSheet/index.html)
 ### [Quiz](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Quiz.html)
@@ -17,3 +18,4 @@ personal study
 ### [Colored Markers](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/ColoredMarkers.html)
 ### [Cafe Menu](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CafeMenu.html)
 ### [Cat Photo App](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CatPhotoApp.html)
+
