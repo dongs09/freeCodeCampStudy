@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>Visual Studio Code documentation</header>
+            <a href="#javascript" class="nav-link">JavaScript</a>
+            <a href="#typescript" class="nav-link">TypeScript</a>
+            <a href="#python" class="nav-link">Python</a>
+            <a href="#java" class="nav-link">Java</a>
+            <a href="#c++" class="nav-link">C++</a>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="javascript">
+                <header>javascript</header>
+                <p>TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It offers classes, modules, and interfaces to help you build robust components.</p>
+                <li>Location of jsconfig.json</li>
+                <li>Writing jsconfig.json</li>
+                <p>Below is a simple template for jsconfig.json file, which defines the JavaScript target to be ES6 and the exclude attribute excludes the node_modules folder. You can copy and paste this code into your jsconfig.json file.</p>
+                <code>{
+                    "compilerOptions": {
+                      "module": "CommonJS",
+                      "target": "ES6"
+                    },
+                    "exclude": ["node_modules", "**/node_modules/*"]
+                  }</code>
+                  <li>Migrating to TypeScript</li>
+            </section>
+            <section class="main-section" id="typescript">
+                <header>typescript</header>
+                <li>Install the TypeScript compiler</li>
+                <li>Hello World</li>
+                <p>Let's start with a simple Hello World Node.js example. Create a new folder HelloWorld and launch VS Code.</p>
+                <code>mkdir HelloWorld
+                    cd HelloWorld
+                    code .
+                </code>
+            </section>
+            <section class="main-section" id="python">
+                <header>python</header>
+                <li>Install and use packages</li>
+                <p>Let's build upon the previous example by using packages.</p>
+                <p>In Python, packages are how you obtain any number of useful code libraries, typically from PyPI, that provide additional functionality to your program. For this example, you use the numpy package to generate a random number.</p>
+                <p>Return to the Explorer view (the top-most icon on the left side, which shows files), open hello.py, and paste in the following source code:</p>
+                <code>import numpy as np
+
+                    msg = "Roll a dice!"
+                    print(msg)
+                    
+                    print(np.random.randint(1,9))
+                </code>
+            </section>
+            <section class="main-section" id="java">
+                <header>java</header>
+                <p>Testing Java in Visual Studio Code is enabled by the Test Runner for Java extension. It's a lightweight extension to run and debug Java test cases.</p>
+                <li>testing Maven</li>
+                <p>Add following configuration into your pom.xml:</p>
+                <code>
+                    <dependency>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+                        <version>(YOUR_JUNIT_VERSION)</version>
+                        <scope>test</scope>
+                      </dependency>                      
+                </code>
+            </section>
+            <section class="main-section" id="c++">
+                <header>c++</header>
+                <li>Check your MinGW installation</li>
+                <p>To check that your MinGW-w64 tools are correctly installed and available, open a new Command Prompt and type:</p>
+                <code>gcc --version
+                    g++ --version
+                    gdb --version
+                </code>
+                <p>You should see output that states which versions of GCC, g++ and GDB you have installed.</p>
+            </section>
+        </main>
+    </body>
+</html>
