@@ -8,6 +8,7 @@ personal study
 
 ## Responsive Web Design
 
+### [Magazine](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Magazine/index.html)
 ### [City Skyline](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CitySkyline/index.html)
 ### [Building a Piano](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/BuildingPiano/index.html)
 ### [Cat Painting](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CatPainting/index.html)
