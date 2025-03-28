@@ -8,7 +8,7 @@ personal study
 
 ## Responsive Web Design
 
-### [Ferris Wheel](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/FlappyPenguin/index.html)
+### [FlappyPenguin](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/FlappyPenguin/index.html)
 ### [Ferris Wheel](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Ferris/index.html)
 ### [Magazine](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/Magazine/index.html)
 ### [City Skyline](https://dongs09.github.io/freeCodeCampStudy/ResponsiveWebDesign/CitySkyline/index.html)
