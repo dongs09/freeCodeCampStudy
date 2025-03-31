@@ -1,5 +1,5 @@
 //strings are immutable .. string은 불변한다?
-let character = 'Hello';
+const character = "#";
 //console.log(character);
 //character = "World";
 //console.log(character);
@@ -13,10 +13,10 @@ let character = 'Hello';
 // console.log(profession);
 // console.log(age);
 
-let count = 8;
+const count = 8;
 //console.log(count + 1);
 
-let rows = ["Naomi", "Quincy", "CamperChan"];
+const rows = [];
 // console.log(rows[0]);
 // rows[rows.length - 1] = 10;
 
@@ -33,3 +33,19 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 
 //console.log(rows);
 
+for (let i=0; i < count; i++) {
+    rows.push(character.repeat(i +1));
+}
+
+let result = "";
+
+for(const row of rows){
+    result = result + row + "\n";
+}
+console.log(result);
+
+function padRow(){
+    return "Hello!";
+}
+const call = padRow();
+console.log(call);
