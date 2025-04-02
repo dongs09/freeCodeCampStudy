@@ -44,8 +44,16 @@ for(const row of rows){
 }
 console.log(result);
 
-function padRow(){
-    return "Hello!";
+function padRow(name){
+    return name;
 }
-const call = padRow();
+
+// function addTwoNumbers(firstNumber, secondNumber){
+//     return firstNumber + secondNumber;
+// }
+
+// const sum = addTwoNumbers(5,10);
+// console.log(sum);
+
+const call = padRow("Donna");
 console.log(call);
