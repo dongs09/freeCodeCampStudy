@@ -37,7 +37,6 @@ function hasPlayerWonTheRound(player, computer) {
             (player === "Scissors" && computer === "Paper") ||
             (player === "Paper" && computer === "Rock")
         );
-    * 
     */
 }
   
@@ -46,8 +45,24 @@ function getRoundResults(userOption) {
     const result = hasPlayerWonTheRound(userOption, computerResult);
     if(result){
         playerScore += 1;
-        return "Player wins! "+userOption+" beats " +computerResult;
+        return "Player wins! " + userOption + " beats " + computerResult;
+    }else{
+        computerScore += 1;
+        return "Computer wins! " + computerResult + " beats " + userOption;
     }
+    /**
+     * original answer
+     * 
+     * if (hasPlayerWonTheRound(userOption, computerResult)) {
+            playerScore++;
+            return `Player wins! ${userOption} beats ${computerResult}`;
+        } else if (computerResult === userOption) {
+            return `It's a tie! Both chose ${userOption}`;
+        } else {
+            computerScore++;
+            return `Computer wins! ${computerResult} beats ${userOption}`;
+        }
+     */
 }
 
 console.log(getRoundResults("Rock"));
