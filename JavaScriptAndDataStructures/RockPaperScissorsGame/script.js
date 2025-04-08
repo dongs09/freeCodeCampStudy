@@ -41,5 +41,14 @@ function hasPlayerWonTheRound(player, computer) {
     */
 }
   
-  console.log(hasPlayerWonTheRound("Rock", "Scissors")); 
-  console.log(hasPlayerWonTheRound("Scissors", "Rock")); 
+function getRoundResults(userOption) {
+    const computerResult = getRandomComputerResult();
+    const result = hasPlayerWonTheRound(userOption, computerResult);
+    if(result){
+        playerScore += 1;
+        return "Player wins! "+userOption+" beats " +computerResult;
+    }
+}
+
+console.log(getRoundResults("Rock"));
+console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
