@@ -2,6 +2,8 @@
 personal study
 ## JavaScript and Data Structures
 
+### [Rock Paper Scissors Game](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RockPaperScissorsGame/index.html)
+### [Random Background Color Changer](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RandomBackgroundColorChanger/index.html)
 ### [Music Player](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/MusicPlayer/index.html)
 ### [Calorie Counter](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/CalorieCounter/index.html)
 ### [Role Playing Game](https://dongs09.github.io/freeCodeCampStudy/JavaScriptAndDataStructures/RolePlayingGame/index.html)
