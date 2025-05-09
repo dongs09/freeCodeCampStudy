@@ -248,6 +248,17 @@ audio.addEventListener("ended", () => {
   //다음 노래가 있는지 체크
   const currentSongIndex = getCurrentSongIndex();
   const nextSongExists = currentSongIndex < userData.songs.length -1 ? true : false;
+  if(nextSongExists){
+    playNextSong();
+  }else{
+    userData.currentSong = null;
+    userData.songCurrentTime = 0;
+
+    pauseSong();
+    setPlayerDisplay();
+    highlightCurrentSong();
+    setPlayButtonAccessibleText();
+  }
   
 });
 
